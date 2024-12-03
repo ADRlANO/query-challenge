@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Adri-s-workspace-4gonic.eu-west-1.xata.sh/db/query-challenge",
+  "codegen": {
+    "output": "src/lib/db/xata/index.ts"
+  }
+}

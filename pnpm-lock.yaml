@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@solidjs/router':
+        specifier: ^0.15.1
+        version: 0.15.1(solid-js@1.9.3)
       '@solidjs/start':
         specifier: ^1.0.10
         version: 1.0.10(solid-js@1.9.3)(vinxi@0.4.3(@types/node@22.10.1)(ioredis@5.4.1)(terser@5.36.0)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.1)(terser@5.36.0))
+      '@xata.io/client':
+        specifier: 0.30.1
+        version: 0.30.1(typescript@5.7.2)
       solid-js:
         specifier: ^1.9.2
         version: 1.9.3
@@ -871,6 +877,11 @@ packages:
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
     engines: {node: '>=18'}
 
+  '@solidjs/router@0.15.1':
+    resolution: {integrity: sha512-lb5BRBqQqii/1dQCglx2K68xLkgu7QcrcajWKuuEx6FHTsK/hp5IgVhjy6RzPMLj+SFyrrRi/ldirCFNxtzh0Q==}
+    peerDependencies:
+      solid-js: ^1.8.6
+
   '@solidjs/start@1.0.10':
     resolution: {integrity: sha512-3yg4KraSxc4rXs9dy/3kkqjDhU0JCPsZFLmDl5n6hHRPwtLLac6WUhs2k5VxGzitHaaJM/ZQCfT7i544Mf+4tw==}
 
@@ -927,6 +938,11 @@ packages:
     resolution: {integrity: sha512-kVYrOrCMHwGvHRwpaeW2/PE7URcGtz4Rk/hIHa2xjt5PGopzzB/Y5GC8YgZjtqSRqo0ElAKsEik7UE6CXH3HXA==}
     peerDependencies:
       vinxi: ^0.4.3
+
+  '@xata.io/client@0.30.1':
+    resolution: {integrity: sha512-dAzDPHmIfenVIpF39m1elmW5ngjWu2mO8ZqJBN7dmYdXr98uhPANfLdVZnc3mUNG+NH37LqY1dSO862hIo2oRw==}
+    peerDependencies:
+      typescript: '>=4.5'
 
   abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -3184,6 +3200,10 @@ snapshots:
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
+  '@solidjs/router@0.15.1(solid-js@1.9.3)':
+    dependencies:
+      solid-js: 1.9.3
+
   '@solidjs/start@1.0.10(solid-js@1.9.3)(vinxi@0.4.3(@types/node@22.10.1)(ioredis@5.4.1)(terser@5.36.0)(typescript@5.7.2))(vite@5.4.11(@types/node@22.10.1)(terser@5.36.0))':
     dependencies:
       '@vinxi/plugin-directives': 0.4.3(vinxi@0.4.3(@types/node@22.10.1)(ioredis@5.4.1)(terser@5.36.0)(typescript@5.7.2))
@@ -3321,6 +3341,10 @@ snapshots:
       magicast: 0.2.11
       recast: 0.23.9
       vinxi: 0.4.3(@types/node@22.10.1)(ioredis@5.4.1)(terser@5.36.0)(typescript@5.7.2)
+
+  '@xata.io/client@0.30.1(typescript@5.7.2)':
+    dependencies:
+      typescript: 5.7.2
 
   abbrev@1.1.1: {}
 
